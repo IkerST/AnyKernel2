@@ -5,11 +5,11 @@
 # begin properties
 properties() { '
 kernel.string=Kernel by IkerST @ xda-developers
-do.devicecheck=0
+do.devicecheck=%%DO_CHECK%%
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=jeter
+device.name1=%%DEVICE%%
 supported.versions=
 '; } # end properties
 
